@@ -1,0 +1,173 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+main{
+    gap: 5px;
+}
+.limit-contener{
+    max-width: 1400px;
+    margin:0;
+    padding-left: 5px ;
+    padding-right: 5px; 
+}
+#nav-barre{
+  height: 52px;
+  background-color: #DD5555;
+  display: flex;
+  align-items: center;
+ gap: 10px;
+  
+
+}
+#nav-logo{
+    width: 240px;
+    display: flex;
+    justify-content: end;
+    
+}
+#logo{
+    margin: 5px 0px 5px 0px;
+    width: 120px;
+    display: flex;
+    justify-self: end;
+}
+
+#nav-options{
+    margin: 10px 0px 10px 0px;
+width: 318px;
+display: flex;
+}
+
+.a-nav{
+    width: 89px;
+    height: 52px;
+    margin: 15px 0px 15px 0px; padding: 5px 0px 5px 0px;
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color:#FFFFFF ;
+}
+.a-nav:hover{
+    background: #000000 0% 0% ;
+    opacity: 0.25;  
+}
+
+#a-propos{
+   height: 658px; 
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: #FFFFFF;
+   background-image: url("Assets/about.jpg.png");
+}
+
+.barre{
+   width: 370px;
+   margin-top: 10px;
+   border-top: solid 1px #FFFFFF;
+
+}
+.buttons{
+    display: flex;
+    margin-top: 15px;
+}
+.a-p-buttons{
+margin: 10px;
+width: 112px;
+padding-right: 15px;
+height: 46px;
+border:none;
+border-radius: 5px;
+display: flex;
+justify-content: center ;
+align-items: center;
+
+}
+.button-icone{
+    margin: 10px;
+    width: 16px;
+    height: 17px;
+    clip-path: circle(90%);
+   ;
+}
+
+#services{
+    width: 1138px;
+    height: 649px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#tableau{
+    margin:0px 10px 0px 10px ;
+    width: 1138px;
+    max-height: 649px;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+.cards-services{
+   width: 358px;
+   height: 266px; 
+   padding: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   overflow: hidden;
+   
+   
+}
+.icone-card-content{
+   
+    width: 120px;
+    height: 120px;
+   clip-path: circle(); 
+   background-color: #DD5555;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#icone-card1{
+    width: 40px;
+    height: 40px;
+    
+}
+#icone-card2{
+    width: 45px;
+    height: 40px;
+    ;
+}
+
+#icone-card3{
+width: 45px;
+height: 40px;
+}
+
+#icone-card4{
+    width: 40px;
+    height: 45px;
+}
+
+#icone-card5{
+    width: 40px;
+    height: 47px;
+}
+
+#icone-card6{
+    width: 40px;
+    height: 47px;
+}
