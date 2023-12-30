@@ -127,7 +127,12 @@ align-items: center;
     height: 17px;
     clip-path: circle(90%);
 }
-
+.h2-cadre{
+    width: 940px;
+    height: 65px;
+    font-size:xx-large;
+    font-weight: 600;
+}
 #services{
     width: 1138px;
     height: 649px;
