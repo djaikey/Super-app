@@ -26,9 +26,13 @@ h2{
 }
 
 h3{
+    margin: 0;
    color:#2E2E2E; 
    text-align: center;
    font-weight: 600;
+}
+p{
+    text-align: center;
 }
 
 main{
@@ -84,6 +88,7 @@ display: flex;
     color:#FFFFFF ;
 }
 .a-nav:hover{
+    color: #FFFFFF;
     background: #000000 0% 0% ;
     opacity: 0.25;  
 }
@@ -100,7 +105,7 @@ display: flex;
 
 .barre{
    width: 370px;
-   margin-top: 10px;
+   
    border-top: solid 0.15px #FFFFFF;
 }
 
@@ -143,8 +148,7 @@ align-items: center;
 }
 
 #tableau{
-    margin:0px 10px 0px 10px ;
-    width: 1138px;
+    margin:0p ;
     max-height: 649px;
     display: flex;
     justify-content: center;
@@ -156,7 +160,7 @@ align-items: center;
 .cards-services{
    width: 358px;
    height: 266px; 
-   padding: 10px;
+   margin: 10px;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -167,7 +171,7 @@ align-items: center;
 .icone-card-content{
     width: 120px;
     height: 120px;
-    clip-path: circle(); 
+    border-radius: 100%;
     background-color: #DD5555;
     display: flex;
     justify-content: center;
@@ -175,33 +179,33 @@ align-items: center;
 }
 
 #icone-card1{
-    width: 40px;
-    height: 40px; 
+    width: 55px;
+    height: 70px;
 }
 
 #icone-card2{
-    width: 45px;
-    height: 40px;
+    width: 80px;
+    height: 54px;
 }
 
 #icone-card3{
-width: 45px;
-height: 40px;
+    width: 55px;
+    height: 70px;
 }
 
 #icone-card4{
-    width: 40px;
-    height: 45px;
+    width: 70px;
+    height: 55px;
 }
 
 #icone-card5{
-    width: 40px;
-    height: 47px;
+    width: 70px;
+    height: 67px;   
 }
 
 #icone-card6{
-    width: 40px;
-    height: 47px;
+    width: 36px;
+    height: 70px;
 }
 
 #equipe{
@@ -245,6 +249,7 @@ height: 40px;
 }
 
 .avatar-button{
+    margin: 20px;
     width: 132px;
     height: 40px;
     border: none;
@@ -312,4 +317,7 @@ footer{
     justify-content: center;
     align-items: center;
     align-self: flex-end; 
+}
+#send-button img{
+    margin: 4px;
 }
