@@ -150,15 +150,21 @@
         </main>
         <footer id="contact">
             <h2>ENVOYEZ-NOUS UN MESSAGE</h2>
-            <form action="post">
-                <label for="name">Votre nom</label>
-                <input type="name">
-                <label for="email">Votre email</label>
-                <input type="email">
+            <form class="form" action="post">
+                <div id="form-part1">
+                    <div class="label-input">
+                        <label class="label-form" for="name">Votre nom</label>
+                        <input class="input-form" type="name">
+                    </div>
+                    <div class="label-input">
+                        <label class="label-form" for="email">Votre email</label>
+                        <input class="input-form" type="email">
+                    </div>
+                </div>
                 <div id="form-part2">
-                    <label for="text">Votre message</label>
-                    <input id="label-message" type="text" name="text">
-                    <button>Envoyer</button>
+                    <label class="label-form" for="text">Votre message</label>
+                    <input id="input-message" type="text" name="text">
+                    <button id="send-button"><img src="Assets/paper-plane.svg" alt=""> Envoyer</button>
                 </div>
             </form>
 
