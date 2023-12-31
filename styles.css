@@ -1,3 +1,4 @@
+/* Mise en forme CSS par défaut*/
 
 *{
     box-sizing: border-box;
@@ -55,7 +56,9 @@ p{
     gap:10px;    
 }
 
+/* Mise en forme CSS des éléments de la landing page*/
 
+/* header --> nav barre et à propos */
 
 #nav-barre{
   height: 52px;
@@ -140,6 +143,8 @@ align-items: center;
     height: 17px;
     clip-path: circle(90%);
 }
+
+/* Main --> articles services et l'équipe*/
 
 .cadre-h2{
     margin: 5px;
@@ -278,6 +283,8 @@ align-items: center;
 .avatar-button img{
     margin: 4px;
 }
+
+/*Footer --> formulaire*/
 
 footer{
     height: 476px;
