@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SUPER APP</title>
-    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -18,7 +18,7 @@
         <header>
             <nav id="nav-barre">
                 <div id="nav-logo">
-                    <a id="logo" href="#"><img src="Assets\Logo.png" alt="logo"></a>
+                    <a id="logo" href="#"><img src="Assets/Logo.png" alt="logo"></a>
                 </div>
 
                 <div id="nav-options">
@@ -29,7 +29,7 @@
                 </div>
             </nav>
             <div id="a-propos">
-                <h1>SUPPER APP</h1>
+                <h1>SUPER APP</h1>
                 <p>L'application trop super !</p>
                 <div class="barre"></div>
                 <div class="buttons">
@@ -45,12 +45,12 @@
 
             </div>
         </header>
-        <main>
+        <main id="main">
             <article id="services">
                 <h2>ELLE FAIT DES TRUCS SUPERS !</h2>
                 <div id="tableau">
 
-                    <div id="mettre" class="cards-services">
+                    <div class="cards-services">
                         <div class="icone-card-content">
                             <img id="icone-card1" src="Assets/fork-and-knife-silhouette.svg" alt="couvers">
                         </div>
@@ -59,7 +59,7 @@
                             dolor
                             sit dicta mius fugit, debitis.</p>
                     </div>
-                    <div id="faire" class="cards-services">
+                    <div class="cards-services">
                         <div class="icone-card-content">
                             <img id="icone-card2" src="Assets/bed.svg" alt="lit">
                         </div>
@@ -68,7 +68,7 @@
                             dolor
                             sit dicta mius fugit, debitis.</p>
                     </div>
-                    <div id="allumer" class="cards-services">
+                    <div class="cards-services">
                         <div class="icone-card-content">
                             <img id="icone-card3" src="Assets/fire-symbol.svg" alt="flamme">
                         </div>
@@ -78,7 +78,7 @@
                             sit dicta mius fugit, debitis.</p>
 
                     </div>
-                    <div id="ramasser" class="cards-services">
+                    <div class="cards-services">
                         <div class="icone-card-content">
                             <img id="icone-card4" src="Assets/plant-leaf-with-white-details.svg" alt="feuille">
                         </div>
@@ -87,7 +87,7 @@
                             dolor
                             sit dicta mius fugit, debitis.</p>
                     </div>
-                    <div id="proteger" class="cards-services">
+                    <div class="cards-services">
                         <div class="icone-card-content">
                             <img id="icone-card5" src="Assets/umbrella-black-silhouette.svg" alt="parapluie">
                         </div>
@@ -96,7 +96,7 @@
                             dolor
                             sit dicta mius fugit, debitis.</p>
                     </div>
-                    <div id="vider" class="cards-services">
+                    <div class="cards-services">
                         <div class="icone-card-content">
                             <img id="icone-card6" src="Assets/dollar-symbol.svg" alt="dollar">
                         </div>
@@ -153,17 +153,17 @@
             <form class="form" action="post">
                 <div id="form-part1">
                     <div class="label-input">
-                        <label class="label-form" for="name">Votre nom</label>
-                        <input class="input-form" type="name">
+                        <label for="name">Votre nom</label>
+                        <input id="name" class="input-form" type="text">
                     </div>
                     <div class="label-input">
-                        <label class="label-form" for="email">Votre email</label>
-                        <input class="input-form" type="email">
+                        <label for="email">Votre email</label>
+                        <input id="email" class="input-form" type="email">
                     </div>
                 </div>
                 <div id="form-part2">
-                    <label class="label-form" for="text">Votre message</label>
-                    <input id="input-message" type="text" name="text">
+                    <label for="textarea">Votre message</label>
+                    <input id="textarea" type="text" name="text">
                     <button id="send-button"><img src="Assets/paper-plane.svg" alt=""> Envoyer</button>
                 </div>
             </form>

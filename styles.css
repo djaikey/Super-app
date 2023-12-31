@@ -9,20 +9,26 @@ body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center;  
 }
 
-h1{
-    width: 258px;
-    height: 65px; 
+.limit-contener{
+    max-width: 1400px;
+    margin:0;
+    padding-left: 5px ;
+    padding-right: 5px;
+}
+
+h1{ 
     margin: 0;
     text-align: center;
+    font-size: 40px;
 }
 
 h2{
-   
     text-align: center;
     font-weight: 600;
+    font-size: 35px;
 }
 
 h3{
@@ -30,24 +36,22 @@ h3{
    color:#2E2E2E; 
    text-align: center;
    font-weight: 600;
+   font-size: 30px;
 }
 p{
     text-align: center;
+    margin-bottom: 0;
 }
 
-main{
+#main{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap:10px;    
 }
 
-.limit-contener{
-    max-width: 1400px;
-    margin:0;
-    padding-left: 5px ;
-    padding-right: 5px; 
-}
+
 
 #nav-barre{
   height: 52px;
@@ -105,7 +109,7 @@ display: flex;
 
 .barre{
    width: 370px;
-   
+   margin-top: 20px;
    border-top: solid 0.15px #FFFFFF;
 }
 
@@ -117,12 +121,11 @@ display: flex;
 .a-p-buttons{
 margin: 10px;
 width: 112px;
-padding-right: 15px;
 height: 46px;
 border:none;
 border-radius: 5px;
 display: flex;
-justify-content: center ;
+
 align-items: center;
 }
 
@@ -139,7 +142,8 @@ align-items: center;
     font-weight: 600;
 }
 #services{
-    width: 1138px;
+    margin: 40px;
+    width: 100%;
     height: 649px;
     display: flex;
     flex-direction: column;
@@ -148,19 +152,19 @@ align-items: center;
 }
 
 #tableau{
-    margin:0p ;
-    max-height: 649px;
+    margin:0 ;
+    margin-bottom: 20px;
     display: flex;
     justify-content: center;
     justify-self: center;
     flex-wrap: wrap;
-    gap: 2px;
+    gap: 5px;
 }
 
 .cards-services{
    width: 358px;
    height: 266px; 
-   margin: 10px;
+   margin: 25px;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -169,6 +173,7 @@ align-items: center;
 }
 
 .icone-card-content{
+    margin-bottom: 15px;
     width: 120px;
     height: 120px;
     border-radius: 100%;
@@ -226,6 +231,10 @@ align-items: center;
     color: #FFFFFF;
 }
 
+.h2-cadre{
+    font-size: 50px;
+}
+
 .cards{  
     display: flex;
     justify-content: space-between;
@@ -281,17 +290,8 @@ footer{
    justify-content: center;
    align-items: center;
 } 
-.label-input{
-    width: 350px;
-    display: flex;
-    flex-direction: column;
-    
-}
-.input{
-    width: 358px;
-    height: 32px;
-    margin: 5px;
-}
+
+
 #form-part1{
     width: 748px;
     display: flex;
@@ -303,10 +303,33 @@ footer{
     flex-direction: column;
 }
 
-#input-message{
+#name{
+    margin: 2px;
+    width: 358px;
+    height: 32px;
+    border: none; 
+    border-radius: 2px;
+}
+
+#email{
+    margin: 2px;
+    width: 358px;
+    height: 32px;
+    border: none;
+    border-radius: 2px;
+}
+
+#message{
+    
+    padding-left: 5px;
+}
+
+#textarea{
     width: 748px;
     height: 112px;  
-    margin: 0; 
+    margin: 5px; 
+    border: none;
+    border-radius: 2px;
 }
 #send-button{
     width: 123px;
@@ -314,10 +337,12 @@ footer{
     margin-top: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
     align-self: flex-end; 
+    border: none;
+    border-radius: 5px;
 }
 #send-button img{
     margin: 4px;
+    
 }
